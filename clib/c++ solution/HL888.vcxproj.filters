@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Database">
+      <UniqueIdentifier>{4d0ff900-0ca3-4cd8-8da3-e4c30c1564f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{4d52b02f-b163-4c21-a192-b581817a8cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{4c6d8afd-172b-425e-93bf-e6098b250ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internals">
+      <UniqueIdentifier>{0f5ef0dd-8c40-4413-9628-58fdcd9eb472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Recon">
+      <UniqueIdentifier>{d0d90986-50a6-4533-9853-869c3c173d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Analysis.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="RockDatabaseFilter.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialisedRockDatabase.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="csvWriter.h">
+      <Filter>Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="csvParser.h">
+      <Filter>Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="MemberOffset.h">
+      <Filter>Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="module.h">
+      <Filter>Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="pyLib.h">
+      <Filter>Python</Filter>
+    </ClInclude>
+    <ClInclude Include="WRB.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="RockDatabase.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="RockSample.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="reconCommon.h">
+      <Filter>Modules\Recon</Filter>
+    </ClInclude>
+    <ClInclude Include="reconResultsProcessors.h">
+      <Filter>Modules\Recon</Filter>
+    </ClInclude>
+    <ClInclude Include="reconManager.h">
+      <Filter>Modules\Recon</Filter>
+    </ClInclude>
+    <ClInclude Include="reconEndmembers.h">
+      <Filter>Modules\Recon</Filter>
+    </ClInclude>
+    <ClInclude Include="moduleCommon.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SpecialisedRockDatabase.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="csvParser.cpp">
+      <Filter>Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="MemberOffset.cpp">
+      <Filter>Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="module.cpp">
+      <Filter>Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="pyLib.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="WRB.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="MCMCRecon.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="pyIO_ReconClasses.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonDBs.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="moduleCommon.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="RockDatabase.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="RockSample.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="reconCommon.cpp">
+      <Filter>Modules\Recon</Filter>
+    </ClCompile>
+    <ClCompile Include="reconEndmembers.cpp">
+      <Filter>Modules\Recon</Filter>
+    </ClCompile>
+    <ClCompile Include="reconManager.cpp">
+      <Filter>Modules\Recon</Filter>
+    </ClCompile>
+    <ClCompile Include="reconResultsProcessors.cpp">
+      <Filter>Modules\Recon</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

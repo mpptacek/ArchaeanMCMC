@@ -1,0 +1,1 @@
+This database was compiled from a query of the PetDB database (http://www.earthchem.org/petdb/). See accompanying manuscript for details.

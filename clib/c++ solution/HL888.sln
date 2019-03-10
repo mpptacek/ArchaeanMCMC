@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HL888", "HL888.vcxproj", "{ADEB9680-250E-4C65-B07A-D28D8548751D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		PythonRelease|Any CPU = PythonRelease|Any CPU
+		PythonRelease|x64 = PythonRelease|x64
+		PythonRelease|x86 = PythonRelease|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADEB9680-250E-4C65-B07A-D28D8548751D}.PythonRelease|Any CPU.ActiveCfg = PythonRelease|x64
+		{ADEB9680-250E-4C65-B07A-D28D8548751D}.PythonRelease|Any CPU.Build.0 = PythonRelease|x64
+		{ADEB9680-250E-4C65-B07A-D28D8548751D}.PythonRelease|x64.ActiveCfg = PythonRelease|x64
+		{ADEB9680-250E-4C65-B07A-D28D8548751D}.PythonRelease|x64.Build.0 = PythonRelease|x64
+		{ADEB9680-250E-4C65-B07A-D28D8548751D}.PythonRelease|x86.ActiveCfg = PythonRelease|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FE9D2CB-14B4-439D-9C4F-DC27AB5AA858}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,85 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>77081302-1691-47e0-8454-3c6a664193b8</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>appMultiRecon.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>ign_loffofiltr</Name>
+    <RootNamespace>ign_loffofiltr</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="appMixSpaceScan.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="appMultiRecon.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="appVisualiseLOF.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="appVisualiseMixSpace.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="appVisualiseMixSpace3D.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Croc\Bootstrap.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Croc\Database.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Croc\FilterLOF.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Croc\FilterSpaceOptimiser.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Croc\MetaStat.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Croc\MixingSpace.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Croc\Rombinatorics.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Croc\SciConstants.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Croc\Util.py" />
+    <Compile Include="Croc\Recon.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Croc\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Croc\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
