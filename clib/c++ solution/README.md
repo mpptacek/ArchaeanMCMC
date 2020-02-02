@@ -1,4 +1,4 @@
-#### C++ library accompanying the manuscript "Chemical Evolution of the Crust from an Inversion of the Composition of Terrigenous Sediments and Implications for the Geotherm of Archaean Continents."
+#### C++ library accompanying the manuscript "Chemical Evolution of the Continental Crust from a Data-Driven Inversion of Terrigenous Sediment Compositions."
 #### M. P. Ptacek, N. Dauphas, N. D. Greber
 #### Origins Lab, University of Chicago
 #### March 2019
