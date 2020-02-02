@@ -22,7 +22,7 @@
 - Do either of:
   - If you have installed lboost_python3 in a non-standard location, update variable R_PATH to point to that location
   - If your lboost_python3 is in a standard location, remove the fragment '-Wl,-rpath,$(R_PATH)' from the end of line 27
--Build using 'make'
+- Build using 'make'
 
 ### TO BUILD IN A CUSTOM ENVIRONMENT:
 - Ensure your compiler can find all necessary libraries
